@@ -15,7 +15,7 @@ H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49740
+51759
 Successfully changed project path to: H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4168] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3267600679 [EditorId] 3267600679 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1596] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 4061379059 [EditorId] 4061379059 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4168] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3267600679 [EditorId] 3267600679 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1596] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 4061379059 [EditorId] 4061379059 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 138.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path H:/Unity/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -62,98 +62,98 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
     Vendor:   NVIDIA
     VRAM:     12115 MB
-    Driver:   31.0.15.5152
+    Driver:   31.0.15.5161
 Initialize mono
 Mono path[0] = 'H:/Unity/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'H:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'H:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: H:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: H:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003586 seconds.
+Registered in 0.003514 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.826 seconds
 Domain Reload Profiling:
-	ReloadAssembly (714ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (507ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (609ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (386ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004125 seconds.
+Registered in 0.006002 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\GitHub_Desktop\Repos\The_Agents_Advance\GD204_Mobile_Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\GitHub_Desktop\Repos\The_Agents_Advance\GD204_Mobile_Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 123.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.335 seconds
+- Completed reload, in  1.768 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1769ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1073ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1482ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
+			SetupTypeCache (323ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (615ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (923ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (499ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (574ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (56.0 KB). Loaded Objects now: 3618.
-Memory consumption went from 110.3 MB to 110.3 MB.
-Total: 3.818000 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.082800 ms MarkObjects: 3.310800 ms  DeleteObjects: 0.095100 ms)
+Unloading 4918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.7 MB). Loaded Objects now: 5358.
+Memory consumption went from 192.7 MB to 191.9 MB.
+Total: 4.574600 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.130800 ms MarkObjects: 3.547500 ms  DeleteObjects: 0.397800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,37 +168,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23594.641302 seconds.
-  path: Assets/Models/Oil_Spill_Blockout.fbx
-  artifactKey: Guid(24f97a690f82027438e052ceea235a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Oil_Spill_Blockout.fbx using Guid(24f97a690f82027438e052ceea235a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e45e04017e7016d3085351400a3c95') in 0.218930 seconds 
+  Time since last request: 6895.410817 seconds.
+  path: Assets/Prefabs/Antag_Car_Prefab.prefab
+  artifactKey: Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Antag_Car_Prefab.prefab using Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860a83e514a729cd897c7ce980b185e4') in 0.200471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 330.326763 seconds.
-  path: Assets/Prefabs/Oil_Spill_Blockout.prefab
-  artifactKey: Guid(6dd3402ca48b047449cd9ed9fab47380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Oil_Spill_Blockout.prefab using Guid(6dd3402ca48b047449cd9ed9fab47380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8149c207e2e8df3924806f337a79a0') in 0.013284 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Civilian_Car_Prefab.prefab
+  artifactKey: Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Civilian_Car_Prefab.prefab using Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e860acd8103eb4949f4842ada3e3e4') in 0.017059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.937242 seconds.
-  path: Assets/Prefabs/Oil_Spill_Prefab.prefab
-  artifactKey: Guid(6dd3402ca48b047449cd9ed9fab47380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Oil_Spill_Prefab.prefab using Guid(6dd3402ca48b047449cd9ed9fab47380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5552b7cc93f6e121eb7d1fd085c3faa4') in 0.008140 seconds 
+  Time since last request: 7.408034 seconds.
+  path: Assets/Prefabs/Street_Prefab.prefab
+  artifactKey: Guid(44b4e061ffad80d45b6fac4ad6c66d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Street_Prefab.prefab using Guid(44b4e061ffad80d45b6fac4ad6c66d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91654d31fad3ba2496d94ebbc2b1ff0') in 0.006827 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.708061 seconds.
-  path: Assets/Models/Bumper_Bar_Blockout.fbx
-  artifactKey: Guid(94baa7f99bce0824191d3d5843467464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Bumper_Bar_Blockout.fbx using Guid(94baa7f99bce0824191d3d5843467464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b1562c54d172847130eea642776330') in 0.030563 seconds 
+  Time since last request: 65.125348 seconds.
+  path: Assets/Materials/Pavement_Mat.mat
+  artifactKey: Guid(fcc262c94c8d2c948a6b5e5c21a6fe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement_Mat.mat using Guid(fcc262c94c8d2c948a6b5e5c21a6fe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3850d55655f82edd4d6a8158da1ef') in 0.028707 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 188.326241 seconds.
-  path: Assets/Prefabs/Bumper_Bar_Blockout.prefab
-  artifactKey: Guid(de9cb2182285b874598297f782fe3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bumper_Bar_Blockout.prefab using Guid(de9cb2182285b874598297f782fe3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8931ada781211378cbfd286ff654d208') in 0.007958 seconds 
+  Time since last request: 24.310479 seconds.
+  path: Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_BaseColor.png
+  artifactKey: Guid(660e5c8fc0e3afa41b7c9de85cb8804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_BaseColor.png using Guid(660e5c8fc0e3afa41b7c9de85cb8804e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c66a1ad1e52fda5391e94475aea70ad') in 0.091215 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.199589 seconds.
-  path: Assets/Prefabs/Bumper_Bar_Prefab.prefab
-  artifactKey: Guid(de9cb2182285b874598297f782fe3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bumper_Bar_Prefab.prefab using Guid(de9cb2182285b874598297f782fe3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef329026db4e3e4218638ddc404f99da') in 0.006886 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Normal.png
+  artifactKey: Guid(92a805f3fde284847b02d65758f3c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Normal.png using Guid(92a805f3fde284847b02d65758f3c9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85473a49ded63317c7b785e41daa94f') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Metallic.png
+  artifactKey: Guid(0073fb79ad814b243abcf52baa53921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Metallic.png using Guid(0073fb79ad814b243abcf52baa53921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269b9b5d7a5a9abd8b7cb600dee1a4dc') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Roughness.png
+  artifactKey: Guid(67907d0e63d828d4fa1dbad16b6ea5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Pavement_Textures/Pavement_blockout_lambert1_Roughness.png using Guid(67907d0e63d828d4fa1dbad16b6ea5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda56569a5a90a836b1667620050c04a') in 0.008063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 426.483097 seconds.
+  path: Assets/Prefabs/Street_Prefab.prefab
+  artifactKey: Guid(44b4e061ffad80d45b6fac4ad6c66d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Street_Prefab.prefab using Guid(44b4e061ffad80d45b6fac4ad6c66d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3438c7e946749bb634ab9d9e0882b1') in 0.015242 seconds 

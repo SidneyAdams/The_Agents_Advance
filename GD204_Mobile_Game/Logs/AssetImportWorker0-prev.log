@@ -15,7 +15,7 @@ H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53206
+50399
 Successfully changed project path to: H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ H:/GitHub_Desktop/Repos/The_Agents_Advance/GD204_Mobile_Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4652] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3249698594 [EditorId] 3249698594 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7984] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 4011266921 [EditorId] 4011266921 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4652] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3249698594 [EditorId] 3249698594 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7984] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 4011266921 [EditorId] 4011266921 [Version] 1048832 [Id] WindowsEditor(7,SidsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 94.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 127.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path H:/Unity/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -62,84 +62,84 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
     Vendor:   NVIDIA
     VRAM:     12115 MB
-    Driver:   31.0.15.5152
+    Driver:   31.0.15.5161
 Initialize mono
 Mono path[0] = 'H:/Unity/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'H:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'H:/Unity/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: H:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: H:/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003634 seconds.
+Registered in 0.003503 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (813ms)
+	ReloadAssembly (807ms)
 		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (590ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (129ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007264 seconds.
+Registered in 0.005958 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\GitHub_Desktop\Repos\The_Agents_Advance\GD204_Mobile_Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\GitHub_Desktop\Repos\The_Agents_Advance\GD204_Mobile_Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
-- Completed reload, in  1.479 seconds
+- Completed reload, in  1.717 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1480ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1718ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1205ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1442ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (320ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (718ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (886ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (585ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,13 +147,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (56.0 KB). Loaded Objects now: 3618.
-Memory consumption went from 110.3 MB to 110.3 MB.
-Total: 6.024900 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.123700 ms MarkObjects: 5.298200 ms  DeleteObjects: 0.169400 ms)
+Unloading 4918 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.7 MB). Loaded Objects now: 5358.
+Memory consumption went from 192.7 MB to 191.9 MB.
+Total: 7.710800 ms (FindLiveObjects: 0.695200 ms CreateObjectMapping: 0.415500 ms MarkObjects: 5.919500 ms  DeleteObjects: 0.679200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,175 +168,259 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13312.480547 seconds.
-  path: Assets/Prefabs/Phone_Box_Blockout.prefab
-  artifactKey: Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Phone_Box_Blockout.prefab using Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16efebc55ab7bbd608d4585e4766248') in 0.165877 seconds 
+  Time since last request: 1714.640852 seconds.
+  path: Assets/Prefabs/Protag_Car_Blockout_Low.prefab
+  artifactKey: Guid(c8ef40ab26b241043a7ba59d68b26e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Protag_Car_Blockout_Low.prefab using Guid(c8ef40ab26b241043a7ba59d68b26e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de36530410db82083a2625910f1ea11') in 0.232474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.615811 seconds.
-  path: Assets/Prefabs/Phone_Box_Prefab.prefab
-  artifactKey: Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Phone_Box_Prefab.prefab using Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9f02257fbefcd9d92ff1f2ef2e0fc4') in 0.022186 seconds 
+  Time since last request: 238.988614 seconds.
+  path: Assets/Textures/Protag_Car_Textures
+  artifactKey: Guid(7c2431a46f7b7684d9cb7543070c7a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Protag_Car_Textures using Guid(7c2431a46f7b7684d9cb7543070c7a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8091bad30db16c60184d6107f9c1712') in 0.001698 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.395952 seconds.
-  path: Assets/Prefabs/Building_Blockout (2).prefab
-  artifactKey: Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building_Blockout (2).prefab using Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e1d344ed5307aa436bb1e355ad4363') in 0.008566 seconds 
+  Time since last request: 4.622954 seconds.
+  path: Assets/Textures/Protag_Car_Textures/Antag_Car_Textures
+  artifactKey: Guid(cea061b07b81edc4e99b1a7bfbb39b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Protag_Car_Textures/Antag_Car_Textures using Guid(cea061b07b81edc4e99b1a7bfbb39b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745c9e34d03d9612fbaf211e7d745dca') in 0.002175 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.242916 seconds.
+  Time since last request: 205.311502 seconds.
+  path: Assets/Prefabs/Antag_Car_Blockout_Low.prefab
+  artifactKey: Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Antag_Car_Blockout_Low.prefab using Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd91c1097a23a79737ca04727539c15a') in 0.011966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.808509 seconds.
   path: Assets/Prefabs/Building_Prefab.prefab
   artifactKey: Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building_Prefab.prefab using Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e81d5d1181c07a68bd5a01a48c543c8') in 0.027414 seconds 
+Start importing Assets/Prefabs/Building_Prefab.prefab using Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65073b86f307d231f37edea63b26b33') in 0.105173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 206.909412 seconds.
-  path: Assets/Prefabs/Bus_Shelter_Blockout.prefab
-  artifactKey: Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bus_Shelter_Blockout.prefab using Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5a9724adc12706d3a84f4464a976a6') in 0.011953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.132931 seconds.
-  path: Assets/Prefabs/Bus_Shelter_Prefab.prefab
-  artifactKey: Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bus_Shelter_Prefab.prefab using Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8578b1994f0d2bd3b200bfbe93f690a0') in 0.011746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4722.794688 seconds.
-  path: Assets/Models/Nitrous_Canister_Blockout.fbx
-  artifactKey: Guid(8926b1552a58db648a6751e300934eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Nitrous_Canister_Blockout.fbx using Guid(8926b1552a58db648a6751e300934eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e7214d9562f1dc6a164638cc745e02') in 0.200074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 172.513155 seconds.
-  path: Assets/Prefabs/Nitrous_Canister_Blockout.prefab
-  artifactKey: Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Nitrous_Canister_Blockout.prefab using Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b2a5bf0cb63d59b76921fb25d84955') in 0.078254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 80.094913 seconds.
-  path: Assets/Prefabs/Nitrous_Canister_Preface.prefab
-  artifactKey: Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Nitrous_Canister_Preface.prefab using Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb2abd280a04bbf69d36b238fa5b8f') in 0.008908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.964131 seconds.
-  path: Assets/Prefabs/Nitrous_Canister_Prefab.prefab
-  artifactKey: Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Nitrous_Canister_Prefab.prefab using Guid(0fe845b21297b3b43b112838c40cca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85451b6311f487b70fd9ba6852c1317') in 0.021709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.282568 seconds.
-  path: Assets/Models/Petrol_Can_Blockout.fbx
-  artifactKey: Guid(28795ec18f312c94a8b16d689ae62971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Petrol_Can_Blockout.fbx using Guid(28795ec18f312c94a8b16d689ae62971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac93fe575e18aeb42f64665e5bc77b8') in 0.046302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.530224 seconds.
-  path: Assets/Prefabs/Petrol_Can_Blockout.prefab
-  artifactKey: Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Petrol_Can_Blockout.prefab using Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105f421658f1b33701bbcf79847e9ff7') in 0.380582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.881777 seconds.
-  path: Assets/Prefabs/Petrol_Can_Prefa.prefab
-  artifactKey: Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Petrol_Can_Prefa.prefab using Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50dc733656431dd6bce2b04bd5c0250') in 0.008264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.144783 seconds.
-  path: Assets/Prefabs/Petrol_Can_Blockout.prefab
-  artifactKey: Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Petrol_Can_Blockout.prefab using Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286e23f44cd27bb9f75bcae270f8b649') in 0.022864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.193824 seconds.
-  path: Assets/Prefabs/Petrol_Can_Prefab.prefab
-  artifactKey: Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Petrol_Can_Prefab.prefab using Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cec0509560a28dbfb16871d640bc64') in 0.009224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.457892 seconds.
-  path: Assets/Models/Vial_Blockout.fbx
-  artifactKey: Guid(d7dea3a6e7b907245a78eb65220c4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Vial_Blockout.fbx using Guid(d7dea3a6e7b907245a78eb65220c4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8229e209daff3ab7f2e54e77b2dabb8') in 0.028581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 201.062835 seconds.
+  Time since last request: 0.000041 seconds.
   path: Assets/Prefabs/Post_Box_Prefab.prefab
   artifactKey: Guid(82f28af99399a7e4abff8f96747dd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Post_Box_Prefab.prefab using Guid(82f28af99399a7e4abff8f96747dd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636f90fce2426287f7d0ce446e12756b') in 0.031356 seconds 
+Start importing Assets/Prefabs/Post_Box_Prefab.prefab using Guid(82f28af99399a7e4abff8f96747dd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12594da2af722b472006b0a3b1395a8a') in 0.016266 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.887389 seconds.
-  path: Assets/Prefabs/Spike_Prefab.prefab
-  artifactKey: Guid(3c6cc0c4f47d64d428f87cee6293468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Spike_Prefab.prefab using Guid(3c6cc0c4f47d64d428f87cee6293468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb7bb4c8be575f42a1338f2dc71618c') in 0.013141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.393824 seconds.
-  path: Assets/Prefabs/Phone_Box_Prefab.prefab
-  artifactKey: Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Phone_Box_Prefab.prefab using Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7d15333a3fec4c1d26c95e9f747e79') in 0.014997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.105220 seconds.
-  path: Assets/Prefabs/Bus_Shelter_Prefab.prefab
-  artifactKey: Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bus_Shelter_Prefab.prefab using Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eff6fdffc440bdfb86d903973def9a') in 0.016209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.369367 seconds.
-  path: Assets/Prefabs/Building_Prefab.prefab
-  artifactKey: Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building_Prefab.prefab using Guid(75146c08f06b5d741a9dd061d0e7e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163701ef8a4b56a3d30d7af3b4f53650') in 0.012083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.324095 seconds.
-  path: Assets/Prefabs/Vial_Blockout.prefab
-  artifactKey: Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Vial_Blockout.prefab using Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622d79ed2e196cffc6d0543214912b0b') in 0.042989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.298889 seconds.
-  path: Assets/Prefabs/Vial_Prefab.prefab
-  artifactKey: Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Vial_Prefab.prefab using Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146c0210e6db31b36c2b1dadff3a09d9') in 0.011219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.256051 seconds.
-  path: Assets/Models/Street_Sign_Blockout.fbx
-  artifactKey: Guid(6b46399dc2abb29469443d4e17d7942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Street_Sign_Blockout.fbx using Guid(6b46399dc2abb29469443d4e17d7942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65629133219ec3638546190dfb8140b') in 0.043719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 184.021989 seconds.
-  path: Assets/Prefabs/Street_Sign_Blockout.prefab
-  artifactKey: Guid(1d897872705a8c04e9c0f142bc9c29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street_Sign_Blockout.prefab using Guid(1d897872705a8c04e9c0f142bc9c29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24902d12ceb1b03cef08d60971bdc47') in 0.034964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.432506 seconds.
+  Time since last request: 0.000023 seconds.
   path: Assets/Prefabs/Street_Sign_Prefab.prefab
   artifactKey: Guid(1d897872705a8c04e9c0f142bc9c29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Street_Sign_Prefab.prefab using Guid(1d897872705a8c04e9c0f142bc9c29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ba7aaef9ae0d4070ca8fdbe1c0192e') in 0.008259 seconds 
+Start importing Assets/Prefabs/Street_Sign_Prefab.prefab using Guid(1d897872705a8c04e9c0f142bc9c29b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f95718eb8bcd728b6118887215a166') in 0.315922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.725501 seconds.
-  path: Assets/Models/Stinger_Blockout.fbx
-  artifactKey: Guid(fe1675e9008f85f48a9e31d972088b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Stinger_Blockout.fbx using Guid(fe1675e9008f85f48a9e31d972088b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4765da0a9150640a83f5a04a1d364b1b') in 0.188103 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Spike_Prefab.prefab
+  artifactKey: Guid(3c6cc0c4f47d64d428f87cee6293468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Spike_Prefab.prefab using Guid(3c6cc0c4f47d64d428f87cee6293468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de5173bbb67e463ec014bdf386018eb') in 0.551663 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 199.350831 seconds.
-  path: Assets/Prefabs/Stinger_Blockout.prefab
-  artifactKey: Guid(1f6b6d18aca67774393a21180f0ceb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Stinger_Blockout.prefab using Guid(1f6b6d18aca67774393a21180f0ceb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f8e6daa86350c4a48deca08107335') in 0.014869 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Petrol_Can_Prefab.prefab
+  artifactKey: Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Petrol_Can_Prefab.prefab using Guid(085eeb296e6ca594ea78e4ac7fcb8091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02193c7d854a8ce814ed570c89622f5') in 0.421109 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.021738 seconds.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Bus_Shelter_Prefab.prefab
+  artifactKey: Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bus_Shelter_Prefab.prefab using Guid(8468c473a53dd8345bd092b3f0bc51f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76e6b337591bf48018de8b7e24fd13b') in 0.180301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
   path: Assets/Prefabs/Stinger_Prefab.prefab
   artifactKey: Guid(1f6b6d18aca67774393a21180f0ceb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Stinger_Prefab.prefab using Guid(1f6b6d18aca67774393a21180f0ceb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5da9ef25515c09c6c5749ef74aa03') in 0.018950 seconds 
+Start importing Assets/Prefabs/Stinger_Prefab.prefab using Guid(1f6b6d18aca67774393a21180f0ceb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd269a45269cd182a70bc2ca06fc3f13') in 0.355588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Vial_Prefab.prefab
+  artifactKey: Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vial_Prefab.prefab using Guid(ab05cfa31f069c645b6247d772c9efb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dca16abc7a0d724da9f7bd3ac32f94') in 0.366312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Phone_Box_Prefab.prefab
+  artifactKey: Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Phone_Box_Prefab.prefab using Guid(94cbd730f65f22f4ab12ed6acacda401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61589a7f29e8a1d59322583d236ff24') in 0.049333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Protag_Car_Prefab.prefab
+  artifactKey: Guid(c8ef40ab26b241043a7ba59d68b26e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Protag_Car_Prefab.prefab using Guid(c8ef40ab26b241043a7ba59d68b26e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07373336ed15c9987c0d269bc7e0cc86') in 0.012126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.168485 seconds.
+  path: Assets/Materials/Bumper_Bar_Mat.mat
+  artifactKey: Guid(7644f4f6f62153a44bb881d08fff1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bumper_Bar_Mat.mat using Guid(7644f4f6f62153a44bb881d08fff1f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a3891df522562a4efa3c1920429136') in 0.063464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Street_Sign_Mat.mat
+  artifactKey: Guid(90a7e4f134f4c6348be19e16813125bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Street_Sign_Mat.mat using Guid(90a7e4f134f4c6348be19e16813125bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69323e112d33f3d1c4c1d852cf9b060a') in 0.014130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/Stinger_Mat.mat
+  artifactKey: Guid(aa7fe906ef4d5c342b8e992fcf0aa333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stinger_Mat.mat using Guid(aa7fe906ef4d5c342b8e992fcf0aa333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750f91fb684e3926b5178430e8c536c') in 0.013312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/Oil_Spill_Mat.mat
+  artifactKey: Guid(dcf6924e5cc8ef949bf2edb6681f5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Oil_Spill_Mat.mat using Guid(dcf6924e5cc8ef949bf2edb6681f5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af2d96fe7beb741fb49802b47c66364') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Materials/Mine_Mat.mat
+  artifactKey: Guid(ad131ddcc74337140a2fc052d14ef642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mine_Mat.mat using Guid(ad131ddcc74337140a2fc052d14ef642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1805382fdac227194bf47cf795c47eac') in 0.012124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.699463 seconds.
+  path: Assets/Textures/Civilian_Car_Textures/Civilian_Car_Blockout_lambert2_Emissive.png
+  artifactKey: Guid(541eb565c57ac9f4cab7cdd80df8c7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Civilian_Car_Textures/Civilian_Car_Blockout_lambert2_Emissive.png using Guid(541eb565c57ac9f4cab7cdd80df8c7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f69d4a38307bbdb95ae59151b6d852') in 0.104796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.773714 seconds.
+  path: Assets/Models/Civilian_Car_Blockout.fbx
+  artifactKey: Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Civilian_Car_Blockout.fbx using Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8d491d4aba98ed2b29d3cabf427d93') in 0.141836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.074195 seconds.
+  path: Assets/Models/Civilian_Car_Blockout.fbx
+  artifactKey: Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Civilian_Car_Blockout.fbx using Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e2b69e70509de90ed60f5a61464446') in 0.056977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184506 seconds.
+  path: Assets/Models/Civilian_Car_Blockout.fbx
+  artifactKey: Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Civilian_Car_Blockout.fbx using Guid(6d16ec3567fae34459b2d2309831c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a969213090cd6bd645072df5220c040') in 0.061056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.249429 seconds.
+  path: Assets/Prefabs/Antag_Car_Prefab.prefab
+  artifactKey: Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Antag_Car_Prefab.prefab using Guid(1d5df383e66c1f247897cf53c4be3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5220fe0eeab87c46aa746f18e26564a') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.774229 seconds.
+  path: Assets/Prefabs/Civilian_Car_Blockout.prefab
+  artifactKey: Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Civilian_Car_Blockout.prefab using Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0274b4be7c3a8f018d90bf80560e85f') in 0.008271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.269190 seconds.
+  path: Assets/Prefabs/Civilian_Car_Prefab.prefab
+  artifactKey: Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Civilian_Car_Prefab.prefab using Guid(1cfcf0447bb7a254982d06250ccfd016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8a5aff6260d458a04a594dd45f62b3') in 0.008154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 722.502456 seconds.
+  path: Assets/Prefabs/Street_Blockout.fbx
+  artifactKey: Guid(702b3e1bacddc024d9af5e78ed094d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Street_Blockout.fbx using Guid(702b3e1bacddc024d9af5e78ed094d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9eeff34cf9d25a30a09141fec3a71b') in 0.016005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.087867 seconds.
+  path: Assets/Prefabs/Street_Blockout.fbx
+  artifactKey: Guid(702b3e1bacddc024d9af5e78ed094d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Street_Blockout.fbx using Guid(702b3e1bacddc024d9af5e78ed094d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6469538c1bbb5283f9ae635683f079') in 0.015494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 955.743126 seconds.
+  path: Assets/Models/Antag_Car_Blockout_High.fbx
+  artifactKey: Guid(013c9df7e96b3704d8f34496a3a8b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Antag_Car_Blockout_High.fbx using Guid(013c9df7e96b3704d8f34496a3a8b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10ebf931140e33487cb6a63188bc5e5') in 0.098700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Vial_Blockout.fbx
+  artifactKey: Guid(d7dea3a6e7b907245a78eb65220c4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Vial_Blockout.fbx using Guid(d7dea3a6e7b907245a78eb65220c4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43199b75f9e293503fee3a4b94898f6f') in 0.029227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Models/Building_Blockout.fbx
+  artifactKey: Guid(e3a9c20bbe0605f4397a7e38bf7a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Building_Blockout.fbx using Guid(e3a9c20bbe0605f4397a7e38bf7a3092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdc160015daff23bb87fd1ef145a227') in 0.016826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Post_Box_Blockout.fbx
+  artifactKey: Guid(873288217f1ce8845b591bffb8d8c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Post_Box_Blockout.fbx using Guid(873288217f1ce8845b591bffb8d8c10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d615f2c0bacf94cc279bdc14784c44') in 0.041677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Petrol_Can_Blockout.fbx
+  artifactKey: Guid(28795ec18f312c94a8b16d689ae62971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Petrol_Can_Blockout.fbx using Guid(28795ec18f312c94a8b16d689ae62971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc9f9448267f73f6725f2202a5ae132') in 0.083956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/Bumper_Bar_Blockout.fbx
+  artifactKey: Guid(94baa7f99bce0824191d3d5843467464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bumper_Bar_Blockout.fbx using Guid(94baa7f99bce0824191d3d5843467464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6958d44a166fa41b76a6c2482569e6b5') in 0.067543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Protag_Car_Blockout_Low.fbx
+  artifactKey: Guid(fca40c0be8fdfa542a08ae9bd9b30c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Protag_Car_Blockout_Low.fbx using Guid(fca40c0be8fdfa542a08ae9bd9b30c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f99f22ed0ac6f4c9589f2c9a02b6b80') in 0.097353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Oil_Spill_Blockout.fbx
+  artifactKey: Guid(24f97a690f82027438e052ceea235a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Oil_Spill_Blockout.fbx using Guid(24f97a690f82027438e052ceea235a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61055a1414f0b0929b4acaa6ca8257d') in 0.073342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Phone_Box_Blockout.fbx
+  artifactKey: Guid(5fb59b7e902c5434d8e4a731038a86f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Phone_Box_Blockout.fbx using Guid(5fb59b7e902c5434d8e4a731038a86f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f2e749dcba047bed88ca4b6afe5b0d') in 0.049784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.925253 seconds.
+  path: Assets/Models/Street_Blockout.fbx
+  artifactKey: Guid(f5d7ef3652b69214a94dac94cb0ce49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Street_Blockout.fbx using Guid(f5d7ef3652b69214a94dac94cb0ce49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf785a0f71c67dfc3b258842b7092db4') in 0.015085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.887592 seconds.
+  path: Assets/Models/Street_Blockout.fbx
+  artifactKey: Guid(f5d7ef3652b69214a94dac94cb0ce49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Street_Blockout.fbx using Guid(f5d7ef3652b69214a94dac94cb0ce49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baa225c6e8d43e6014c60fa27fe55c0') in 0.015371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.492320 seconds.
+  path: Assets/Materials/Antag_Car_Mat.mat
+  artifactKey: Guid(bbe539d97c79ace4fa2833f8666037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Antag_Car_Mat.mat using Guid(bbe539d97c79ace4fa2833f8666037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4424ed953b146ebc30f40ba42ac3a571') in 0.113143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Materials/Protag_Car_Mat.mat
+  artifactKey: Guid(efa32421927d6304cb48b3d79978614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Protag_Car_Mat.mat using Guid(efa32421927d6304cb48b3d79978614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c16dc2e5b4ac93a7c9c8aaeb005bc16') in 0.015091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.004525 seconds.
+  path: Assets/Models/Pavement_blockout.fbx
+  artifactKey: Guid(6ea0c9cb3494fb642959f37c0affbce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pavement_blockout.fbx using Guid(6ea0c9cb3494fb642959f37c0affbce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04609222e029cb6fd85881578507fa6b') in 0.017910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.082082 seconds.
+  path: Assets/Models/Pavement_blockout.fbx
+  artifactKey: Guid(6ea0c9cb3494fb642959f37c0affbce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pavement_blockout.fbx using Guid(6ea0c9cb3494fb642959f37c0affbce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4757611bd9262bb78793e5eee9c882e1') in 0.014699 seconds 
