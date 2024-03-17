@@ -366,8 +366,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/GenerateLevel.cs"
 "Assets/Scripts/GUI_Anim_Script.cs"
 "Assets/Scripts/GUI_Behaviour_Script.cs"
+"Assets/Scripts/GUI_Lvl_Link_Script.cs"
+"Assets/Scripts/LevelBoundry.cs"
+"Assets/Scripts/Level_Boundary.cs"
+"Assets/Scripts/PlayerMovnemt.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

@@ -292,7 +292,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6623011894326743036}
-  - component: {fileID: 3635977052922053067}
   m_Layer: 0
   m_Name: Pavement_Prefab
   m_TagString: Untagged
@@ -320,19 +319,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3635977052922053067
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6423386941604406243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.92207336, y: 0.9549139, z: 99.51723}
-  m_Center: {x: -19.26358, y: 0.45904258, z: 0.2235508}
 --- !u!1 &6638253796176437473
 GameObject:
   m_ObjectHideFlags: 0
