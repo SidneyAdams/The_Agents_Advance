@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LevelBoundary : MonoBehaviour
 {
-    public static float leftSide = -6f;
-    public static float rightSide = 6f;
+    public static float leftSide = 256f;
+    public static float rightSide = 270f;
     public float internalLeft;
     public float internalRight;
 

@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &119605322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,8 +474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fbe436796b27644d8f5c285bd9abdf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  internalLeft: -6
-  internalRight: 6
+  internalLeft: 256
+  internalRight: 270
 --- !u!4 &786271515
 Transform:
   m_ObjectHideFlags: 0
@@ -1115,6 +1115,11 @@ PrefabInstance:
         type: 3}
       propertyPath: far clip plane
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767372833540201669, guid: c8ef40ab26b241043a7ba59d68b26e41,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5075461143464429528, guid: c8ef40ab26b241043a7ba59d68b26e41,
         type: 3}
