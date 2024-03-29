@@ -19,11 +19,11 @@ public class Collision_Script : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == ("collectable"))
+        if (other.gameObject.CompareTag("Collectable"))
         {
             Destroy(other.gameObject);
         }
-        else if (other.gameObject.tag == ("obstacle"))
+        else if (other.gameObject.CompareTag("Obstacle"))
         {
             gameOver = true;
         }
