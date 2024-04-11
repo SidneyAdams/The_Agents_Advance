@@ -382,6 +382,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"H:/Unity/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"H:/Unity/2022.3.22f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Audio_Manager_Script.cs"
 "Assets/Scripts/Collision_Script.cs"
 "Assets/Scripts/GenerateLevel.cs"
 "Assets/Scripts/GUI_Anim_Script.cs"
@@ -389,7 +390,11 @@
 "Assets/Scripts/GUI_Lvl_Link_Script.cs"
 "Assets/Scripts/LevelBoundry.cs"
 "Assets/Scripts/Level_Boundary.cs"
+"Assets/Scripts/Level_Generation_Script.cs"
+"Assets/Scripts/Object_Destruction_Script.cs"
+"Assets/Scripts/Object_Spawn_Script.cs"
 "Assets/Scripts/PlayerMovnemt.cs"
+"Assets/Scripts/TileManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

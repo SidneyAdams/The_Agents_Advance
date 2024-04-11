@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/AgentsAdvance_UI.unity
     guid: e9cc3b5eddc89f946bb0fa47c129f679
   - enabled: 1
-    path: Assets/Scenes/Alpha_Test_Scene.unity
-    guid: 4e1855971738fa241981b9ee715cd378
+    path: Assets/Scenes/Mission_Scrubbed_UI.unity
+    guid: 37c8987d88c26744097683928be91aa2
+  - enabled: 1
+    path: Assets/Scenes/Game_Level_URP.unity
+    guid: 62896331c23773947b979b3818fee672
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: faf76b38821bdf545a579f707cb0dc95, type: 2}

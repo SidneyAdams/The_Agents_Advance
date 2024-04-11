@@ -470,7 +470,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.6037736, g: 0.2652047, b: 0.15663938, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -492,7 +492,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 585569315}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364100196}
+        m_TargetAssemblyTypeName: GUI_Lvl_Link_Script, Assembly-CSharp
+        m_MethodName: LoadNewLevel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: AgentsAdvance_UI
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &585569315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5754717, g: 0.34420025, b: 0.21444464, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -749,7 +761,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1232624896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364100196}
+        m_TargetAssemblyTypeName: GUI_Lvl_Link_Script, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1232624896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,6 +824,7 @@ GameObject:
   - component: {fileID: 1364100194}
   - component: {fileID: 1364100193}
   - component: {fileID: 1364100192}
+  - component: {fileID: 1364100196}
   m_Layer: 5
   m_Name: Mission_Scrubbed_GUI
   m_TagString: Untagged
@@ -890,6 +915,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1364100196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364100191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b3bc35a6b5b4840b7907925cf65ad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1736805054
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +987,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee075fdfc07c0bb4fa93d5bf4c616478, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21db2bd2118aa354b857b39bf3a46be5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1049,7 +1086,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2113611561}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364100196}
+        m_TargetAssemblyTypeName: GUI_Lvl_Link_Script, Assembly-CSharp
+        m_MethodName: LoadNewLevel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Game_Level_URP
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2113611561
 MonoBehaviour:
   m_ObjectHideFlags: 0

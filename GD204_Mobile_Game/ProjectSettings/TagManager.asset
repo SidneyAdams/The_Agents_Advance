@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Collectable
   - Obstacle
+  - Environment
+  - Level_Controls
   layers:
   - Default
   - TransparentFX

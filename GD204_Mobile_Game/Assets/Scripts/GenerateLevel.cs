@@ -9,7 +9,7 @@ public class GenerateLevel : MonoBehaviour
     public GameObject Player;
     public int zPos = 105;
     public bool creatingSection = false;
-    private float xCoord = 12.2471f;
+    private float xCoord = 12f;
     private Transform LevelTransform;
     private Transform PlayerTransform;
     //public int secNum;
@@ -24,10 +24,7 @@ public class GenerateLevel : MonoBehaviour
         LevelTransform = GameObject.Find("Level_Section").transform;
         PlayerTransform = GameObject.Find("Protag_Car_Prefab").transform;
 
-       // if(LevelTransform.position.z <= PlayerTransform.position.z - 50)
-        //{
-        //    Destroy(Level_Section);
-       // }
+       
     }
 
     IEnumerator GenerateSection()
